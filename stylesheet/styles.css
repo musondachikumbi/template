@@ -1,0 +1,135 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+}
+.header{
+    background-color: rgb(32, 32, 61);
+    padding-left: 100px;
+    padding-right: 100px;
+}
+h1{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 48px;
+font-weight: 900;  
+}
+*{
+    box-sizing: border-box;
+}
+.button{
+    background-color: #3882f6;
+    padding:4px;
+    width: fit-content;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    color:beige;
+}
+.image{
+    margin-left: auto;
+}
+.logo-links{
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+}
+a{
+    color:aliceblue;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.main-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+}    
+.first-image{
+    align-self: flex-start;
+}
+footer{
+    background-color: rgb(32, 32, 61);
+    color:aliceblue;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.image1,
+.image2,
+.image3,
+.image4{
+    border: 1px solid rgb(77, 169, 255);
+    border-radius: 5px;
+}
+.testimonial{
+    font-size: 36px;
+    font-weight: 300;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 48px;
+}
+h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+.user{
+    align-self: flex-end;
+    font-weight: bold;
+}
+.testimonial_text{
+    display: flex;
+    flex-direction: column;
+}
+.containment{
+    background-color: #3882f6;
+    border-radius: 10px;
+    margin: 120px;
+    padding: 40px;
+}
+.flex-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h3{
+    font-size: 23px;
+}
+.item1{
+    color: white;
+}
+.item2{
+    margin-right: 50px;
+    font-size: 17px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.content{
+    font-size: 17px;
+}
+.testimony{
+    margin: 100px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.headertwo{
+    padding: 50px;
+}
+.tiger-image{
+    border: 20px solid rgb(1, 1, 82);
+}
